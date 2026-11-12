@@ -1,0 +1,6 @@
+{
+  "appId": "com.jobsearch.assistant",
+  "appName": "مساعد البحث عن وظيفة",
+  "webDir": "www",
+  "android": { "allowMixedContent": false }
+}

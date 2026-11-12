@@ -1,0 +1,17 @@
+{
+  "name": "job-search-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "description": "مساعد البحث عن وظيفة - تطبيق أندرويد يعمل بدون إنترنت",
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/filesystem": "^8.0.0",
+    "@capacitor/share": "^8.0.0",
+    "jszip": "^3.10.1"
+  },
+  "scripts": {
+    "postinstall": "node -e \"require('fs').copyFileSync('node_modules/jszip/dist/jszip.min.js','www/jszip.min.js')\""
+  }
+}
